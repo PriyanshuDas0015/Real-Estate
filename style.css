@@ -1,0 +1,144 @@
+    .logo {
+            display: flex;
+
+        }
+
+        .logo img {
+            width: 124px;
+        }
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Segoe UI';
+            color: white;
+
+        }
+
+        .sec1 {
+            color: #94a3b8;
+        }
+
+        .sec2 {
+            color: #94a3b8;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .right ul li span {
+            padding: 0 5px;
+        }
+
+        body {
+            background: linear-gradient(180deg,
+                    #0A1028 0%,
+                    #070B1F 50%,
+                    #050815 100%);
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 8px;
+            margin: 10px
+        }
+
+        .first span {
+
+            font-family: system-ui;
+            font-size: 50px;
+            align-items: center;
+
+        }
+
+        .A button {
+            font-size: 15px;
+            font-family: bold;
+            margin-top: 2px;
+            background: rgb(101, 233, 180);
+            padding: 5px 10px;
+            COLOR: rgb(13, 78, 62);
+            border-radius: 20px;
+            border: none;
+
+        }
+
+        .B {
+            font-size: 15px;
+            width: 47vw;
+            text-align: center;
+            font-family: sans-serif;
+            color: #94a3b8;
+        }
+
+        .second {
+            display: flex;
+            gap: 15px;
+            padding: 5px;
+        }
+
+        .second button {
+            padding: 10px 20px;
+
+            border-radius: 10px;
+            border: 1 black;
+        }
+
+        .a {
+            background: #22c55e;
+            text-align: center;
+            font-style: bold;
+
+        }
+
+        .a div {
+            color: white;
+        }
+
+        .b {
+            background: transparent;
+            color: white;
+        }
+
+        .flex {
+            display: flex;
+
+        }
+
+        .grid {
+            padding: 19px;
+            margin: 13px;
+            background: #12172b;
+        }
+
+        .item-lang1 {
+            color: white;
+            font-size: 15px;
+            font-family: system-ui;
+            padding: 7px;
+        }
+
+        .item-lang2 {
+            color: #94a3b8;
+            font-size: 13px;
+            font-family: system-ui;
+            padding: 7px;
+        }
