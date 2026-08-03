@@ -15,11 +15,23 @@
             width: 124px;
         }
 
+        .navbar{
+            background-color: transparent;
+        }
+
         nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
             font-family: 'Segoe UI';
+            color: white;
+
+        }
+        .sec1 {
+            color: #94a3b8;
+        }
+        .sec2{
+            color: #94a3b8;
         }
 
         .right ul {
@@ -39,8 +51,12 @@
         }
 
         body {
-            background: rgb(128, 189, 240);
+            background: linear-gradient(180deg,
+                    #0A1028 0%,
+                    #070B1F 50%,
+                    #050815 100%);
         }
+
         .first {
             display: flex;
             flex-direction: column;
@@ -76,45 +92,48 @@
             width: 47vw;
             text-align: center;
             font-family: sans-serif;
+            color: #94a3b8;
         }
 
-        .C {
+        .second {
             display: flex;
             gap: 15px;
             padding: 5px;
         }
 
-        .C button {
+        .second button {
             padding: 10px 20px;
-            
+
             border-radius: 10px;
             border: 1 black;
         }
 
-        .a{
-            background: rgb(58, 253, 18);
+        .a {
+            background: #22c55e;
             text-align: center;
             font-style: bold;
 
         }
-        .a div{
+
+        .a div {
             color: white;
         }
-        .b{
+
+        .b {
             background: transparent;
+            color: white;
         }
 
         .flex {
             display: flex;
 
         }
-
     </style>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo">
                 <img src="realestate img.jpeg" alt="">
             </div>
@@ -173,14 +192,14 @@
                 <button>
                     THE FUTURE OF REAL ESTATE PLANNING
                 </button>
-            </div>
-            <span> <b>Real estate In</b></span>
-            <span> <b>Personal Finance Planning</b></span>
+            </div >
+            <span class="sec1"> <b>Real estate In</b></span>
+            <span class="sec2"> <b>Personal Finance Planning</b></span>
 
             <p class="B"> <b> Empowring middle-income families andfirst-time buyers with data-driven insights loan
-                    plannint tools, and govornmet scheam guidance</b></p>
+                    plannint tools, and govornmet scheam guidance</b></p>    
 
-            <section class="C">
+            <section class="second">
                 <button class="a">
                     <div> <b>Explore Tools</b></div>
                 </button>
@@ -188,12 +207,20 @@
                 <button class="b">
                     <div> <b></b>Start Planning</b></div>
                 </button>
-
-            <section class="second">
-                <div class="flex">
-
+               </section>       
+          
+            
+        </section>
+        <section class="third">
+            <div class="grid">
+                <div class="item">
+                    <button class="btn1"></button>
+                    <div class="item-lang1">Land Buying</div>
+                    <div class="item-lang2"> Step-by-step guidance for plot acquisition</div>
                 </div>
-            </section>
+            </div>
+        </section>
+
     </main>
 </body>
 
