@@ -203,6 +203,7 @@
         width: 250px;
         height: 130px;
         text-align: -webkit-left;
+        color: white;
     }
 
     .grid2 {
@@ -213,6 +214,7 @@
         width: 250px;
         height: 130px;
         text-align: -webkit-left;
+        color: white;
     }
     .grid3 {
         padding: 30px;
@@ -222,6 +224,7 @@
         width: 250px;
         height: 130px;
         text-align: -webkit-left;
+        color: white;
     }
 
     .grid4 {
@@ -232,6 +235,7 @@
         width: 250px;
         height: 130px;
         text-align: -webkit-left;
+        color: white;
     }
 
     .grid5 {
@@ -242,6 +246,7 @@
         width: 250px;
         height: 130px;
         text-align: -webkit-left;
+        color: white;
     }
 
     .grid6 {
@@ -252,8 +257,9 @@
         width: 250px;
         height: 130px;
         text-align: -webkit-left;
+        color: white;
     }
-    .fourth-item-lang1 {
+    .fourth1-item-lang1 {
         color: white;
         font-size: 15px;
         font-family: system-ui;
