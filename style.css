@@ -207,7 +207,7 @@
     }
 
     .grid2 {
-       padding: 30px;
+        padding: 30px;
         margin: 41px 85px;
         background: #4c5460;
         border-radius: 14px;
@@ -216,6 +216,7 @@
         text-align: -webkit-left;
         color: white;
     }
+
     .grid3 {
         padding: 30px;
         margin: 41px 85px;
@@ -228,7 +229,7 @@
     }
 
     .grid4 {
-     padding: 30px;
+        padding: 30px;
         margin: 41px 85px;
         background: #4c5460;
         border-radius: 14px;
@@ -239,7 +240,7 @@
     }
 
     .grid5 {
-       padding: 30px;
+        padding: 30px;
         margin: 41px 85px;
         background: #4c5460;
         border-radius: 14px;
@@ -250,7 +251,7 @@
     }
 
     .grid6 {
- padding: 30px;
+        padding: 30px;
         margin: 41px 85px;
         background: #4c5460;
         border-radius: 14px;
@@ -259,9 +260,28 @@
         text-align: -webkit-left;
         color: white;
     }
-    .fourth1-item-lang1 {
+
+    /* .fourth1-item-lang1 {
         color: white;
         font-size: 15px;
         font-family: system-ui;
         padding-top: 15px;
+    } */
+
+   
+
+    .badge {
+        width: 32px;
+        height: 32px;
+        background-color: #0f3833;
+        /* Dark green background */
+        color: #34d399;
+        /* Bright green text */
+        border-radius: 50%;
+        /* Makes it a circle */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
     }
